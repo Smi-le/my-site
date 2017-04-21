@@ -1,42 +1,107 @@
 .main-wrap{
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 .main-body{
-    background: url("img/fon/glass-pat-001.jpg") repeat;
+    background: url("img/fon/229_166.jpg") repeat;
     /*width: 1200px;*/
     /*height: 1200px;*/
 }
 
+/*header{*/
+    /*position: absolute;*/
+    /*left: 500px;*/
+    /*top: 20px;*/
+/*}*/
 header{
-    position: absolute;
-    left: 500px;
-    top: 20px;
+    background-color: #02071d;
+    border-radius: 5px;
+}
+header nav{
+    display: inline-block;
+    vertical-align: text-bottom;
 }
 
 header nav a{
-    background-color: #7d7573;
-    line-height: 50px;
+    /*background-color: #02071d;*/
+    /*line-height: 50px;*/
     font-size: 20px;
     color: #fff;
     text-decoration: none;
-    margin-right: 30px;
-    padding: 10px 15px;
+    margin-right: 12px;
+    padding: 8px 12px;
+    /*border-radius: 5px;*/
+}
+
+header nav a:last-child{
+    margin-right: 0;
     border-radius: 5px;
 }
 
-header nav a:hover{
-    background-color: #4f4b4c;
+header div{
+    /*background-color: #02071d;*/
+    color: #fff;
+    /*margin-right: 12px;*/
+    margin-right: 90px;
+    margin-left: 50px;
+    font-size: 40px;
+    padding: 8px 12px;
+    /*border-radius: 5px;*/
+    display: inline-block;
 }
 
-.main-foto{
-    width: 300px;
+header nav a:hover{
+    background-color: #828a95;
+    border-radius: 5px;
+}
+
+.main-foto {
+    width: 26%;
     height: 350px;
-    position: absolute;
-    top: 20px;
-    left: 50px;
+    margin-right: 20px;
+    vertical-align: top;
+    /*margin-left: 20px;*/
+    display: inline-block;
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*left: 50px;*/
     font-size: 50px;
-    background-color: #7d7573;
+    background-color: #02071d;
+    color: #fff;
     text-align: center;
     line-height: 350px;
+    border-radius: 5px;
+    /*margin-top: 50px;*/
+}
+.test{
+    margin-top: 50px;
+}
+.under-about{
+    display: inline-block;
+    width: 69%;
+    /*margin-top: 50px;*/
+}
+.about{
+
+    background-color: #828a95;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+.under-about div:last-child{
+    margin-top: 20px;
+}
+.skills,
+.education,
+.experience{
+    background-color: #828a95;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    /*float: right;*/
+    /*margin-left: 400px;*/
 }
